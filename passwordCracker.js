@@ -1,5 +1,6 @@
 //Password Cracker
 //Program written by Zach Hofmeister
+//READ THE README BEFORE USING ANY OF MY CODE!!!
 
 
 //"userPassword" will not be read by the computer, instead it will be guessed and reguessed.
@@ -23,11 +24,11 @@ var i = [0,0,0,0,0,0,0,0,0,0];
 //the following function 
 var checkPassword = function(passwordGuess) {
 
-	if(passwordGuess === userPassword) {
-		debug("Your password is " + computerGuess + ".");
-		debug("Took " + totalGuesses + " tries to guess your password.");
+    if(passwordGuess === userPassword) {
+		console.log("Your password is " + computerGuess + ".");
+		console.log("Took " + totalGuesses + " tries to guess your password.");
 	}else{
-		//debug("Guessing again.");
+		//console.log("Guessing again.");
 	};
 };
 
